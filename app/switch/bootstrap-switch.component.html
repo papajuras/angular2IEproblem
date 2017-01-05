@@ -1,0 +1,4 @@
+<div>
+    <div class="inactive-label" *ngIf="title" [class.text-right]="textRight">{{title}}</div>
+    <input type="checkbox" [attr.id]="switchId" [(ngModel)]="value">
+</div>
